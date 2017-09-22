@@ -1,0 +1,28 @@
+{
+  "name": "manucoin",
+  "version": "1.0.0",
+  "description": "A personal token",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/truffle test"
+  },
+  "author": "maraoz",
+  "license": "MIT",
+  "dependencies": {
+    "truffle": "^3.4.9",
+    "zeppelin-solidity": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.1",
+    "moment": "^2.18.1"
+  }
+}
