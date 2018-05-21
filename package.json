@@ -11,7 +11,7 @@
   "author": "maraoz",
   "license": "MIT",
   "dependencies": {
-    "truffle": "^3.4.9",
+    "truffle": "^3.4.11",
     "zeppelin-solidity": "^1.3.0"
   },
   "devDependencies": {

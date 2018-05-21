@@ -3,10 +3,15 @@ require('babel-polyfill');
 
 module.exports = {
   networks: {
-    testrpc: {
-     host: 'localhost',
+    development: {
+      host: 'localhost',
       port: 8545,
       network_id: '*'
+    },
+    livenet: {
+      host: 'localhost',
+      port: 8546,
+      network_id: '1'
     },
   }
 };
